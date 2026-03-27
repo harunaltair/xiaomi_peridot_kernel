@@ -26,7 +26,7 @@ jobs:
       - name: Setup Clang (Stable)
         run: |
           mkdir clang && cd clang
-          curl -LO https://github.com/ZyCromerZ/Clang/releases/download/20.0.0git-20250129-release/Clang-20.0.0git-20250129.tar.gz
+          curl -LO https://github.com/ZyCromerZ/Clang/releases/download/15.0.7-20260208-release/Clang-15.0.7-20260208.tar.gz
           tar -xf *.tar.gz
           echo "$(pwd)/bin" >> $GITHUB_PATH
 
